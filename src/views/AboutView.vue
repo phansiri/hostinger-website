@@ -1,5 +1,6 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+  <q-page class="q-pa-lg">
+    <h2 class="q-mt-none">About Me</h2>
+    <p>larem</p>
+  </q-page>
 </template>

@@ -1,18 +1,19 @@
 <template>
   <q-page>
     <!-- <img alt="Vue logo" src="../assets/logo.png" /> -->
-    <HelloWorld msg="Lits World" />
+    <HeroSection />
   </q-page>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+// import HelloWorld from "@/components/HelloWorld.vue";
+import HeroSection from "@/components/HeroSection.vue";
 
 export default {
   name: "HomeView",
   components: {
-    HelloWorld,
+    HeroSection,
   },
 };
 </script>

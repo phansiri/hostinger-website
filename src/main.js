@@ -10,9 +10,3 @@ app.use(Quasar, quasarUserOptions);
 app.use(store);
 app.use(router);
 app.mount("#app");
-
-// createApp(App)
-//   .use(Quasar, quasarUserOptions)
-//   .use(store)
-//   .use(router)
-//   .mount("#app");

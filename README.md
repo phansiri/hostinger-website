@@ -1,4 +1,4 @@
-# quasar-app-2
+# Hostinger Website
 
 ## Project setup
 ```
@@ -18,6 +18,11 @@ npm run build
 ### Lints and fixes files
 ```
 npm run lint
+```
+
+## Setup
+```
+test
 ```
 
 ### Customize configuration

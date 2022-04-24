@@ -1,6 +1,6 @@
 <template>
-  <q-layout view="hHh lpR fFf">
-    <q-header reveal elevated class="glossy">
+  <q-layout view="hHh Lpr fFf">
+    <q-header class="header-tool">
       <q-toolbar>
         <q-btn
           flat
@@ -10,9 +10,8 @@
           aria-label="Menu"
           icon="menu"
         />
-
         <q-toolbar-title>
-          <q-item>Lit Phansiri</q-item>
+          <q-item class="absolute-center">Lit</q-item>
         </q-toolbar-title>
         <q-toolbar-title>
           <q-toggle
@@ -22,7 +21,6 @@
             v-model="toggleMode"
             icon="mode_night"
           />
-          <!-- <q-btn @click="toggleDark">Change</q-btn> -->
         </q-toolbar-title>
       </q-toolbar>
     </q-header>
@@ -45,13 +43,24 @@
           v-for="routerLink in routerLinks"
           :key="routerLink.name"
         >
-          <q-item :to="routerLink.to" clickable v-ripple>
-            <q-item-section avatar>
-              <q-icon :name="routerLink.icon" />
-            </q-item-section>
+          <div v-if="!toggleMode">
+            <q-item :to="routerLink.to" clickable v-ripple>
+              <q-item-section avatar>
+                <q-icon :name="routerLink.icon" />
+              </q-item-section>
 
-            <q-item-section> {{ routerLink.name }} </q-item-section>
-          </q-item>
+              <q-item-section> {{ routerLink.name }} </q-item-section>
+            </q-item>
+          </div>
+          <div v-else>
+            <q-item :to="routerLink.to" clickable v-ripple>
+              <q-item-section avatar>
+                <q-icon :name="routerLink.icon" />
+              </q-item-section>
+
+              <q-item-section> {{ routerLink.name }} </q-item-section>
+            </q-item>
+          </div>
         </q-list>
       </q-scroll-area>
 
@@ -62,7 +71,7 @@
       >
         <div class="absolute-bottom bg-transparent">
           <q-avatar size="56px" class="q-mb-sm">
-            <img src="@/assets/boy-avatar.png" />
+            <img src="@/assets/lit-avatar.jpeg" />
           </q-avatar>
           <div class="text-weight-bold">Lit Phansiri</div>
           <div>@litphansiri</div>
@@ -70,7 +79,7 @@
       </q-img>
     </q-drawer>
 
-    <q-footer reveal elevated class="glossy">
+    <q-footer reveal>
       <q-toolbar>
         <footer-section></footer-section>
       </q-toolbar>
@@ -78,6 +87,7 @@
 
     <q-page-container>
       <router-view />
+
       <!-- place QPageScroller at end of page -->
       <q-page-scroller
         position="bottom-right"
@@ -102,7 +112,7 @@ export default {
   },
   data() {
     return {
-      toggleMode: false,
+      toggleMode: true,
       routerLinks: [
         {
           to: "/",
@@ -120,7 +130,7 @@ export default {
           name: "work",
         },
       ],
-      $q: useQuasar(),
+      $q: useQuasar().dark.set(true),
     };
   },
   watch: {
@@ -135,3 +145,10 @@ export default {
   },
 };
 </script>
+
+<style lang="scss" scoped>
+.header-tool {
+  background-color: #1a2238;
+  opacity: 0.92;
+}
+</style>

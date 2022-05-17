@@ -1,6 +1,29 @@
 <template>
   <q-layout view="hHh Lpr fFf">
-    <q-header class="header-tool">
+    <!-- hHh lpR fFf -->
+    <!-- hHh Lpr fFf -->
+
+    <q-header class="bg-primary text-white">
+      <q-toolbar>
+        <q-space />
+        <q-tabs shrink>
+          <q-route-tab to="/" name="Home" label="Home" />
+          <q-route-tab to="/about" name="About" label="About" />
+          <q-route-tab to="/work" name="Work" label="Work" />
+        </q-tabs>
+        <q-toolbar-title>
+          <q-toggle
+            class="absolute-right"
+            color="blue"
+            dark
+            v-model="toggleMode"
+            icon="mode_night"
+          />
+        </q-toolbar-title>
+      </q-toolbar>
+    </q-header>
+
+    <!-- <q-header class="header-tool">
       <q-toolbar>
         <q-btn
           flat
@@ -57,7 +80,6 @@
               <q-item-section avatar>
                 <q-icon :name="routerLink.icon" />
               </q-item-section>
-
               <q-item-section> {{ routerLink.name }} </q-item-section>
             </q-item>
           </div>
@@ -77,7 +99,11 @@
           <div>@litphansiri</div>
         </div>
       </q-img>
-    </q-drawer>
+    </q-drawer> -->
+
+    <q-page-container>
+      <router-view />
+    </q-page-container>
 
     <q-footer reveal>
       <q-toolbar>
@@ -85,18 +111,14 @@
       </q-toolbar>
     </q-footer>
 
-    <q-page-container>
-      <router-view />
-
-      <!-- place QPageScroller at end of page -->
-      <q-page-scroller
-        position="bottom-right"
-        :scroll-offset="150"
-        :offset="[18, 18]"
-      >
-        <q-btn fab icon="keyboard_arrow_up" color="accent" />
-      </q-page-scroller>
-    </q-page-container>
+    <!-- place QPageScroller at end of page -->
+    <q-page-scroller
+      position="bottom-right"
+      :scroll-offset="150"
+      :offset="[18, 18]"
+    >
+      <q-btn fab icon="keyboard_arrow_up" color="accent" />
+    </q-page-scroller>
   </q-layout>
 </template>
 

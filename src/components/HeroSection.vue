@@ -5,6 +5,16 @@
         <h2 class="row justify-center text-weight-regular q-pt-xl">
           Lit Phansiri
         </h2>
+        <type-writer
+          class="row justify-center text-weight-regular q-pb-xl"
+          :words="[
+            'Software Engineer',
+            'DevSecOps Engineer',
+            'Innovator',
+            'Leader',
+          ]"
+        >
+        </type-writer>
         <div class="row justify-center">
           <div class="q-gutter-lg">
             <q-badge transparent>Father</q-badge>
@@ -38,7 +48,9 @@
 </template>
 
 <script>
+import TypeWriter from "./TypeWriter.vue";
 export default {
+  components: { TypeWriter },
   setup() {},
 };
 </script>

@@ -1,10 +1,10 @@
 <template>
   <section class="main-desc-section q-pt-xl p-pxp-md">
     <h2 class="row justify-center text-weight-regular q-pt-xl">Who Am I</h2>
-    <div class="q-pa-md row items-start q-gutter-md">
-      <q-card flat bordered class="my-card center">
+    <div class="q-pa-md row items-start q-gutter-md justify-center">
+      <q-card flat bordered class="my-card">
         <q-card-section class="text-center">
-          Qualified technology and military leader with more than 19 years of
+          Qualified technologist and military leader with more than 19 years of
           experience.
         </q-card-section>
 
@@ -34,6 +34,10 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {};
+</script>
 
 <style lang="scss" scoped>
 .main-desc-section {

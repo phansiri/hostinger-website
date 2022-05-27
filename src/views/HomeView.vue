@@ -1,8 +1,6 @@
 <template>
   <q-page>
     <HeroSection />
-  </q-page>
-  <q-page>
     <MainDesc />
   </q-page>
 </template>

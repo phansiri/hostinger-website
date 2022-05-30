@@ -28,15 +28,22 @@
         <q-separator inset />
 
         <q-card-section class="text-center">
-          <q-btn><q-icon name="email" />Email me</q-btn></q-card-section
-        >
+          <q-btn round color="blue" href="mailto:lit+website@phansiri.com"
+            ><q-icon :name="fasEnvelopeOpenText"
+          /></q-btn>
+        </q-card-section>
       </q-card>
     </div>
   </section>
 </template>
 
 <script>
-export default {};
+import { fasEnvelopeOpenText } from "@quasar/extras/fontawesome-v6";
+export default {
+  created() {
+    this.fasEnvelopeOpenText = fasEnvelopeOpenText;
+  },
+};
 </script>
 
 <style lang="scss" scoped>

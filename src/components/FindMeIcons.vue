@@ -7,6 +7,11 @@
       href="https://github.com/phansiri"
       ><q-icon :name="fabGithub"
     /></q-btn>
+
+    <q-btn rounded color="green" target="_blank" href="https://www.marines.mil/"
+      ><q-icon :name="fasPersonMilitaryRifle"
+    /></q-btn>
+
     <q-btn
       rounded
       color="purple"
@@ -18,13 +23,17 @@
 </template>
 
 <script>
-import { fabGithub } from "@quasar/extras/fontawesome-v5";
-import { fabLinkedinIn } from "@quasar/extras/fontawesome-v5";
+import {
+  fabGithub,
+  fabLinkedinIn,
+  fasPersonMilitaryRifle,
+} from "@quasar/extras/fontawesome-v6";
 
 export default {
   created() {
     this.fabGithub = fabGithub;
     this.fabLinkedinIn = fabLinkedinIn;
+    this.fasPersonMilitaryRifle = fasPersonMilitaryRifle;
   },
 };
 </script>

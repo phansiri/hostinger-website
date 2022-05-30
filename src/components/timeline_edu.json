@@ -42,6 +42,7 @@
         "desc": "Gain familiarity with Japanese language and culture to help you function effectively in Japan.",
         "url": "https://asia.umgc.edu/online-degrees/undergraduate-certificates/foreign-japn-cert",
         "urlTitle":"UMGC Japanese Studies",
-        "icon":"language"
+        "icon":"language",
+        "color": "green"
       }
     ]

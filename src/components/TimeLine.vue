@@ -124,6 +124,7 @@
             :title="item.title"
             :subtitle="item.subtitle"
             :icon="item.icon"
+            :color="item.color"
           >
             Position: {{ item.billet }}
             <br />
@@ -142,6 +143,7 @@
             :title="item.title"
             :subtitle="item.subtitle"
             :icon="item.icon"
+            :color="item.color"
           >
             {{ item.billet }}
             <br />

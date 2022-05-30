@@ -32,6 +32,7 @@
           >
           </q-btn>
         </div>
+        <find-me-icons />
       </div>
     </div>
     <div class="col-xs-12 col-sm-6 col-md-6">
@@ -49,8 +50,9 @@
 
 <script>
 import TypeWriter from "./TypeWriter.vue";
+import FindMeIcons from "@/components/FindMeIcons.vue";
 export default {
-  components: { TypeWriter },
+  components: { TypeWriter, FindMeIcons },
   setup() {},
 };
 </script>

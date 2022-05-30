@@ -3,19 +3,42 @@
         "title": "31st Marine Expeditionary Unit",
         "subtitle": "May 2020 - Present",
         "billet": "Cyberspace Warfare Officer - Staff Planner",
-        "desc": "Push the envelope of tactical cyber at the Fleet Marine Force edge"
+        "desc": "Push the envelope of tactical cyber at the Fleet Marine Force edge",
+        "icon": "sailing"
       },
       {
         "title": "Defensive Cyberspace Operations - Internal Defensive Measures Compay, III Marine Information Group, III Marine Expeditionary Force",
         "subtitle": "Dec 2018 - May 2020",
         "billet": "Cyberspace Warfare Officer - Executive Officer, Operations Officer, and Platoon Commander",
         "desc": "Help stood up DCO-IDM Company on Okinawa",
-        "icon": "star"
+        "icon": "flag"
       },
       {
-        "title": "title three",
-        "subtitle": "date three",
-        "billet": "Cyberspace Warfare Officer",
-        "desc": "desc three"
+        "title": "Platform One",
+        "subtitle": "Jan 2021 - Apr 2021",
+        "billet": "Cloud Native Access Point Engineer",
+        "desc": "Engineer solutions to provide access to development, testing, and production enclaves at IL-2, IL-4, and IL-5",
+        "icon": "code"
+      },
+      {
+        "title": "Defense Digital Service",
+        "subtitle": "Jan 2020 - Apr 2020",
+        "billet": "Software Engineer",
+        "desc": "Part of the Marine Corps Battle for Mon Cala team that produced a DevSecOps solution to bring warfighters closer to emerging applications",
+        "icon": "code"
+      },
+      {
+        "title": "Recruiting Sub Station Bellevue, Recruiting Station Seattle",
+        "subtitle": "Aug 2009 - July 2012",
+        "billet": "Recruiter",
+        "desc": "Provide the opportunity for citizens to volunteer to be part of the legacy",
+        "icon": "record_voice_over"
+      },
+      {
+        "title": "Enlisted Time",
+        "subtitle": "July 2003 - Sep 2017",
+        "billet": "Leader of Marines",
+        "desc": "Various leadership position from E-1 to E-7",
+        "icon": "start"
       }
     ]

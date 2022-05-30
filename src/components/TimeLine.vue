@@ -147,7 +147,7 @@
             <br />
             -{{ item.desc }}
             <br />
-            <a href="{{item.url}}">{{ item.urlTitle }}</a>
+            Learn More at: <a href="{{item.url}}">{{ item.urlTitle }}</a>
           </q-timeline-entry>
         </q-timeline>
       </div>

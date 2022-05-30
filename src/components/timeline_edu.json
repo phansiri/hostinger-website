@@ -1,24 +1,39 @@
 [
       {
         "title": "University of California - Berkeley",
-        "subtitle": "Sept 2020 - Present",
+        "subtitle": "Sept 2020 - [On Hold Due to Deployments]",
         "billet": "Master of Information and Data Science (MIDS) program",
         "desc": "Accepted and completed some course but due to a Permenant Change of Assignment to a high tempo unit, the progress is progress is currently on pause",
-        "icon": "engineering"
+        "icon": "engineering",
+        "url": "https://ischoolonline.berkeley.edu/data-science/",
+        "urlTitle":"UC Berkeley MIDS"
       },
             {
         "title": "Naval Post Graduate School",
         "subtitle": "Jan 2020 - Dec 2020",
         "billet": "Graduate Certificate in Cyber Security Fundamentals",
         "desc": "The program is intended to help you obtain a strong foundational understanding of computer network defense, vulnerabilities, and exploitations. The objective of the certificate is intended to enable students to make choices that will result in better defense of their networks",
-        "icon": "verified_user"
+        "icon": "verified_user",
+        "url": "https://nps.edu/web/c3o/cybersecurity-fundamentals",
+        "urlTitle":"NPS Cybersecurity Fundamentals"
+      },
+      {
+        "title": "Basic Communication Officer Course",
+        "subtitle": "June 2018 - Dec 2018",
+        "billet": "Student",
+        "desc": "6 month course to provide initial communications skills training to company grade officers",
+        "icon": "terminal",
+        "url": "https://www.trngcmd.marines.mil/Units/West/MCCES/Communication-Training-Battalion/",
+        "urlTitle": "BCOC"
       },
       {
         "title": "University of Washington - Seattle",
         "subtitle": "Aug 2013 - Mar 2017",
         "billet": "Bachelors of Science in Informatics",
         "desc": "Two concentration in Information Assurance & Cybersecurity and Information Architecture",
-        "icon": "star"
+        "icon": "code",
+        "url": "https://ischool.uw.edu/programs/informatics",
+        "urlTitle":"UW Informatics"
       },
       {
         "title": "University of Maryland Global Campus | Asia",

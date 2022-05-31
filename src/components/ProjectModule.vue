@@ -2,7 +2,7 @@
   <div class="full-width row wrap justify-center">
     <div class="col-12 col-md">
       <q-card class="q-ma-sm">
-        <q-img src="@/assets/p1-uw-nrotc.png" />
+        <q-img src="@/assets/p1-uw-nrotc-resized.png" />
 
         <q-card-section>
           <div class="text-h6">
@@ -20,7 +20,7 @@
 
     <div class="col-12 col-md">
       <q-card class="q-ma-sm">
-        <q-img src="@/assets/p2-store.png" />
+        <q-img src="@/assets/p2-store-resized.png" />
 
         <q-card-section>
           <div class="text-h6">
@@ -36,7 +36,7 @@
 
     <div class="col-12 col-md">
       <q-card class="q-ma-sm">
-        <q-img src="@/assets/p3-mc-covid-tracker.png" />
+        <q-img src="@/assets/p3-mc-covid-tracker-resized.png" />
 
         <q-card-section>
           <div class="text-h6">
@@ -53,7 +53,7 @@
     </div>
     <div class="col-12 col-md">
       <q-card class="q-ma-sm">
-        <q-img src="@/assets/p4-solo.png" />
+        <q-img src="@/assets/p4-solo-resized.png" />
 
         <q-card-section>
           <div class="text-h6">

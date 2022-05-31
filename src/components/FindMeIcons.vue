@@ -37,6 +37,9 @@ import {
   fabCss3,
   fasDatabase,
   fasCloud,
+  fabDocker,
+  fabVuejs,
+  fasFlask,
 } from "@quasar/extras/fontawesome-v6";
 
 export default {
@@ -49,13 +52,6 @@ export default {
         target: "_blank",
         href: "https://github.com/phansiri",
       },
-      // {
-      //   icon: fasPersonMilitaryRifle,
-      //   tooltip: "United States Marine Corps",
-      //   color: "green",
-      //   target: "_blank",
-      //   href: "https://www.marines.mil/",
-      // },
       {
         icon: fabLinkedinIn,
         tooltip: "LinkedIn",
@@ -92,6 +88,18 @@ export default {
       {
         icon: fasCloud,
         tooltip: "AWS, GCP, and Azure",
+      },
+      {
+        icon: fabDocker,
+        tooltip: "Docker",
+      },
+      {
+        icon: fabVuejs,
+        tooltip: "Vue 3",
+      },
+      {
+        icon: fasFlask,
+        tooltip: "Flask and Django",
       },
     ];
 

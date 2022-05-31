@@ -6,12 +6,15 @@
           Lit Phansiri
         </h2>
         <type-writer
-          class="row justify-center text-weight-regular q-pb-xl"
+          class="row justify-center text-weight-regular"
+          :deleteSpeed="25"
           :words="[
             'Software Engineer',
             'DevSecOps Engineer',
             'Innovator',
             'Leader',
+            'Father',
+            'Marine',
           ]"
         >
         </type-writer>
@@ -22,11 +25,11 @@
             <q-badge transparent>Husband</q-badge>
           </div>
         </div>
-        <div class="row justify-center q-pt-xl">
+        <div class="row justify-center q-pa-xl">
           <q-btn
-            flat
+            outline
             to="/about"
-            class="main-hero-button q-py-sm q-px-xl"
+            class="main-hero-button q-py-md q-px-xl"
             color="primary"
             label="find out more"
           >

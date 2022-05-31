@@ -26,7 +26,7 @@
 import {
   fabGithub,
   fabLinkedinIn,
-  fasPersonMilitaryRifle,
+  // fasPersonMilitaryRifle,
 } from "@quasar/extras/fontawesome-v6";
 
 import {
@@ -49,13 +49,13 @@ export default {
         target: "_blank",
         href: "https://github.com/phansiri",
       },
-      {
-        icon: fasPersonMilitaryRifle,
-        tooltip: "United States Marine Corps",
-        color: "green",
-        target: "_blank",
-        href: "https://www.marines.mil/",
-      },
+      // {
+      //   icon: fasPersonMilitaryRifle,
+      //   tooltip: "United States Marine Corps",
+      //   color: "green",
+      //   target: "_blank",
+      //   href: "https://www.marines.mil/",
+      // },
       {
         icon: fabLinkedinIn,
         tooltip: "LinkedIn",
@@ -100,17 +100,5 @@ export default {
       skills,
     };
   },
-  // created() {
-  //   this.fabGithub = fabGithub;
-  //   this.fabLinkedinIn = fabLinkedinIn;
-  //   this.fasPersonMilitaryRifle = fasPersonMilitaryRifle;
-  //   this.fabJava = fabJava;
-  //   this.fabPython = fabPython;
-  //   this.fabJs = fabJs;
-  //   this.fabHtml5 = fabHtml5;
-  //   this.fabCss3 = fabCss3;
-  //   this.fasDatabase = fasDatabase;
-  //   this.fasCloud = fasCloud;
-  // },
 };
 </script>

@@ -7,7 +7,7 @@
         </h2>
         <type-writer
           class="row justify-center text-weight-regular"
-          :deleteSpeed="25"
+          :deleteSpeed="20"
           :words="[
             'Software Engineer',
             'DevSecOps Engineer',

@@ -31,7 +31,7 @@ jobs:
     - name: Sync Files
       uses: SamKirkland/FTP-Deploy-Action@4.1.0
       with:
-        server: ftp://phansiri.com
+        server: phansiri.com
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         local-dir: ./dist/

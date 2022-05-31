@@ -31,10 +31,26 @@
 </template>
 
 <script>
+import { ref } from "vue";
+import { useMeta } from "quasar";
 import TimeLine from "@/components/TimeLine.vue";
 export default {
   components: {
     TimeLine,
+  },
+  setup() {
+    const title = ref("Lit | About");
+    useMeta(() => {
+      return {
+        title: title.value,
+      };
+    });
+    function setAnotherTitle() {
+      title.value = "Another title";
+    }
+    return {
+      setAnotherTitle,
+    };
   },
 };
 </script>

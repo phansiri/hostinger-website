@@ -13,14 +13,15 @@
         <q-separator inset />
 
         <q-card-section class="">
-          In his previous role, he was the Cyberspace Warfare Officer for Delta
-          Company, 3d Radio Battalion based out of Okinawa, Japan. He is now
+          In my previous role, I worked as the Executive Officer for Delta
+          Company, 3d Radio Battalion based out of Okinawa, Japan. Now I am
           working in the 31st Marine Expeditionary Unit as their Officer In
-          Charge. Lit shares his experience in backend and frontend development,
+          Charge. I share my experience in backend and frontend development,
           career-related topics, and innovative approach with people seeking
-          guidance in the tech industry. He spends his free time tinkering on
-          his home lab, reading , hanging out with his daughters, and going on
-          travel adventures whenever he is not making content or writing code.
+          guidance in the tech industry. I also spend my free time tinkering on
+          a home lab server, reading, hanging out with my two daughters, and
+          going on travel adventures whenever I am not making content or writing
+          code.
         </q-card-section>
       </q-card>
     </div>

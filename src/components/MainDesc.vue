@@ -12,13 +12,13 @@
 
         <q-card-section class="">
           <ul>
-            Continue to work with and build high energy, high value teams to
+            Continues to work with and builds high energy, high value teams to
             study, design and develop information technology solutions for the
             good of people, organizations, and society.
           </ul>
           <ul>
-            Talent and passion for finding creative solutions to complex
-            problems while developing information technology to win.
+            Talented and passionate for finding creative solutions to complex
+            problems while developing information technology to meet goals.
           </ul>
           <ul>
             Hands on leader with an intimate knowledge of technology, tools, and

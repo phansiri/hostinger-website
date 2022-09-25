@@ -13,11 +13,11 @@
         <q-separator inset />
 
         <q-card-section class="">
-          In my previous role, he was the Cyberspace Warfare Officer for Delta
+          In his previous role, he was the Cyberspace Warfare Officer for Delta
           Company, 3d Radio Battalion based out of Okinawa, Japan. He is now
           working in the 31st Marine Expeditionary Unit as their Officer In
           Charge. Lit shares his experience in backend and frontend development,
-          career-related topics, and innovative appoarch with people seeking
+          career-related topics, and innovative approach with people seeking
           guidance in the tech industry. He spends his free time tinkering on
           his home lab, reading , hanging out with his daughters, and going on
           travel adventures whenever he is not making content or writing code.

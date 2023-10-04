@@ -4,25 +4,27 @@
     <div class="q-pa-md row items-start q-gutter-md justify-center">
       <q-card flat bordered class="my-card">
         <q-card-section class="text-center">
-          Qualified technologist and military leader with more than 19 years of
-          experience.
+          Experienced technologist and military leader with over 20 years of
+          proven expertise.
         </q-card-section>
 
         <q-separator inset />
 
         <q-card-section class="">
           <ul>
-            Continues to work with and builds high energy, high value teams to
-            study, design and develop information technology solutions for the
-            good of people, organizations, and society.
+            I consistently collaborate with assemble dynamic, high-impact teams
+            dedicated to researching, conceiving, and crafting information
+            technology solutions that benefit individuals, institutions, and
+            society as a whole.
           </ul>
           <ul>
-            Talented and passionate for finding creative solutions to complex
-            problems while developing information technology to meet goals.
+            My innate talent and unwavering passion drive me to unearth
+            innovative answers to intricate challenges while effectively
+            utilizing information technology to achieve objectives.
           </ul>
           <ul>
-            Hands on leader with an intimate knowledge of technology, tools, and
-            people.
+            I am a hands-on leader endowed with an intimate understanding of
+            technology, tools, and the people who make it happen.
           </ul>
         </q-card-section>
         <q-separator inset />

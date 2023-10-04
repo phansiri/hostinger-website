@@ -4,24 +4,26 @@
     <div class="q-pa-md row items-start q-gutter-md justify-center">
       <q-card flat bordered class="my-card">
         <q-card-section class="text-center">
-          I am currently working in the capacity as a Cyberspace Warfare Officer
-          for the United States Marine Corps. With over 19 years of experience
-          in software engineering and leadership to help advance the
-          institution.
+          I presently serve as a Cyberspace Warfare Officer within the United
+          States Marine Corps. My background boasts over 20 years of experience
+          in leadership and software engineering, which I am eager to leverage
+          to drive progress within the organiazation.
         </q-card-section>
 
         <q-separator inset />
 
         <q-card-section class="">
-          In my previous role, I worked as the Executive Officer for Delta
-          Company, 3d Radio Battalion based out of Okinawa, Japan. Now I am
-          working in the 31st Marine Expeditionary Unit as their Officer In
-          Charge. I share my experience in backend and frontend development,
-          career-related topics, and innovative approach with people seeking
-          guidance in the tech industry. I also spend my free time tinkering on
-          a home lab server, reading, hanging out with my two daughters, and
-          going on travel adventures whenever I am not making content or writing
-          code.
+          In my previous role, I worked as the Cyberspace Warfare Officer with
+          the 31st Marine Expeditionary Unit based out of Okinawa, Japan. Now I
+          am working in the Marine Corps Cyberspace Warfare Group as a
+          Cyberspace Warfare Officer. I enjoy imparting my expertise in both
+          backend and frontend development, offering insights on career-related
+          subjects, and sharing innovative approaches with individuals seeking
+          guidance in the tech industry. In my leisure time, you'll often find
+          me experiementing with and in my home lab server, engrossed in
+          reading, spending quality moments with my two daughters, or embarking
+          on exciting travel adventures. These activities fill my life when I'm
+          not activity creating content or coding.
         </q-card-section>
       </q-card>
     </div>
